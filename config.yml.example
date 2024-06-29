@@ -14,6 +14,10 @@ autoreply:
   # 自动关键词回复，你可以复制成多行，每个关键词用 `|` 隔开即可，在 `:` 后输入自动回复内容
   "在吗|你好": "欢迎使用客服系统，请等待客服回复你~"
 openai:
+  # api.openai.com
+  baseUrl: https://api.openai.com/v1
+  # 模型 默认：gpt-3.5-turbo
+  model: gpt-4o
   # APIKey
   apiKey: 
   # 预制内容，内容越多token消耗越多，单价越贵
