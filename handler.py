@@ -108,7 +108,7 @@ async def sendMessage(data):
                 "from": "operator",
                 "origin": "chat",
                 "user": {
-                    "nickname": '智能客服',
+                    "nickname": '智能AI客服',
                     "avatar": 'https://img.ixintu.com/download/jpg/20210125/8bff784c4e309db867d43785efde1daf_512_512.jpg'
                 }
             }
