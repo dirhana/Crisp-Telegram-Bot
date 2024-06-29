@@ -91,7 +91,7 @@ async def sendMessage(data):
             flow.append(f"💡<b>自动回复</b>：{autoreply}")
         elif openai is not None and session["enableAI"] is True:
             response = openai.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model=config["openai"]["model"],
                 messages=[
                     {"role": "system", "content": payload},
                     {"role": "user", "content": data["content"]}
